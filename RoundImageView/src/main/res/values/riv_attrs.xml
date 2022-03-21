@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RoundImageView">
+        <attr name="radius" format="reference|dimension" />
+        <attr name="topLeftRadius" format="reference|dimension" />
+        <attr name="topRightRadius" format="reference|dimension" />
+        <attr name="bottomRightRadius" format="reference|dimension" />
+        <attr name="bottomLeftRadius" format="reference|dimension" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.zhuyefeng.riv.RoundImageView
+        android:id="@+id/riv01"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="20dp"
+        app:radius="15dp"
+        android:src="@color/purple_200" />
+
+    <com.zhuyefeng.riv.RoundImageView
+        android:id="@+id/riv02"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/riv01"
+        android:layout_margin="20dp"
+        app:topLeftRadius="15dp"
+        app:topRightRadius="15dp"
+        android:src="@color/purple_500" />
+
+    <com.zhuyefeng.riv.RoundImageView
+        android:id="@+id/riv03"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/riv02"
+        android:layout_margin="20dp"
+        app:bottomLeftRadius="15dp"
+        app:bottomRightRadius="15dp"
+        android:src="@color/teal_200" />
+
+    <com.zhuyefeng.riv.RoundImageView
+        android:id="@+id/riv04"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/riv03"
+        android:layout_margin="20dp"
+        app:topLeftRadius="15dp"
+        app:bottomRightRadius="15dp"
+        android:src="@color/purple_700" />
+</androidx.constraintlayout.widget.ConstraintLayout>
